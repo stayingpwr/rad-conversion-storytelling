@@ -5,18 +5,19 @@ var config = {
     markerColor: '#3FB1CE',
     theme: 'dark',
     use3dTerrain: false,
-    title: 'The Title Text of this Story',
-    subtitle: 'A descriptive and interesting subtitle to draw in the reader',
-    byline: 'By a Digital Storyteller',
+    title: 'MAKE SURE THAT THERE IS A COMMA AFTER THE LAST QUOTATION MARK AND ALL THE TEXT IS BETWEEN QUOTATIONS',
+    subtitle: 'THIS CHANGES THE SUBTITLE',
+    byline: 'THIS CHANGES THE BYLINE',
     footer: 'Source: source citations, etc.',
     chapters: [
+        //BEGINNING OF CHAPTER
         {
             id: 'all-nycha',
             alignment: 'left',
             hidden: false,
             title: 'New Title',
-            // image: './path/to/image/source.png',
-            description: 'change',
+            image: 'PUT IN A PATH TO THE IMAGES YOU UPLOAD ON GITHUB HERE',
+            description: 'THIS WILL CHANGE THE DESCRIPTION',
             location: {
                 center: [-73.96284, 40.75688],
                 zoom: 11,
@@ -46,13 +47,14 @@ var config = {
                 }
             ]
         },
+        //END OF CHAPTER
         {
             id: 'all-rad',
             alignment: 'left',
             hidden: false,
             title: 'this is all rad developments',
-            // image: './path/to/image/source.png',
-            description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+            image: './path/to/image/source.png',
+            description: 'CHANGE THE DESCRIPTION FOR CHAPTER TWO',
             location: {
                 center: [-73.96284, 40.75688],
                 zoom: 11,
@@ -77,13 +79,15 @@ var config = {
                 }
             ]
         },
+        // THIS COMMA MEANS THE CHAPTER HAS ENDED
         {
+            //WHENEVER YOU SEE A NEW ID THAT MEANS A NEW CHAPTER HAS STARTED
             id: 'ocean-bay',
             alignment: 'left',
             hidden: false,
             title: 'this is all ocean bay',
-            // image: './path/to/image/source.png',
-            description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+            image: './path/to/image/source.png',
+            description: 'DESCRIPTION',
             location: {
                 center: [-73.78490, 40.59548],
                 zoom: 16.00,
@@ -103,7 +107,7 @@ var config = {
             alignment: 'right',
             hidden: false,
             title: 'this is betances',
-            // image: './path/to/image/source.png',
+            image: './path/to/image/source.png',
             description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
             location: {
                 center: [-73.91603, 40.81126],
@@ -124,8 +128,8 @@ var config = {
             alignment: 'right',
             hidden: false,
             title: 'This is highbridge franklin',
-            // image: './path/to/image/source.png',
-            description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+            image: './path/to/image/source.png',
+            description: 'DESCRIPTION',
             location: {
                 center: [-73.90068, 40.83366],
                 zoom: 17.00,
@@ -146,7 +150,7 @@ var config = {
             hidden: false,
             title: 'This is highbridge franklin',
             // image: './path/to/image/source.png',
-            description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+            description: 'DESCRIPTION',
             location: {
                 center: [-73.92683, 40.83603],
                 zoom: 17.00,
@@ -167,7 +171,7 @@ var config = {
             hidden: false,
             title: 'This is Baychester',
             // image: './path/to/image/source.png',
-            description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+            description: 'DESCRIPTION',
             location: {
                 center: [-73.84374, 40.88375],
                 zoom: 16.50,
@@ -187,8 +191,8 @@ var config = {
             alignment: 'left',
             hidden: false,
             title: 'This is Baychester',
-            // image: './path/to/image/source.png',
-            description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+            image: './path/to/image/source.png',
+            description: 'DESCRIPTION',
             location: {
                 center: [-73.89393, 40.84275],
                 zoom: 17.00,
@@ -208,8 +212,8 @@ var config = {
             alignment: 'left',
             hidden: false,
             title: 'This is Hope Garden',
-            // image: './path/to/image/source.png',
-            description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+            image: './path/to/image/source.png',
+            description: 'DESCRIPTION',
             location: {
                 center: [-73.91401, 40.69097],
                 zoom: 16.00,
@@ -229,8 +233,8 @@ var config = {
             alignment: 'left',
             hidden: false,
             title: 'Brooklyn Bundle 1',
-            // image: './path/to/image/source.png',
-            description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+            image: './path/to/image/source.png',
+            description: 'DESCRIPTION',
             location: {
                 center: [-73.94968, 40.68920],
                 zoom: 16.00,
@@ -250,8 +254,8 @@ var config = {
             alignment: 'left',
             hidden: false,
             title: 'Brooklyn Bundle 2',
-            // image: './path/to/image/source.png',
-            description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+            image: './path/to/image/source.png',
+            description: 'DESCRIPTION',
             location: {
                 center: [-73.96305, 40.70673],
                 zoom: 16.00,
@@ -271,8 +275,8 @@ var config = {
             alignment: 'left',
             hidden: false,
             title: 'Brooklyn Bundle 3',
-            // image: './path/to/image/source.png',
-            description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+            image: './path/to/image/source.png',
+            description: 'DESCRIPTION',
             location: {
                 center: [-73.93409, 40.67620],
                 zoom: 16.00,
@@ -291,9 +295,9 @@ var config = {
             id: 'manhattan-bundle-1',
             alignment: 'left',
             hidden: false,
-            title: 'Display Title',
             title: 'Manhattan Bundle 1',
-            description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+            image: './path/to/image/source.png',
+            description: 'DESCRIPTION',
             location: {
                 center: [-73.93321, 40.84560],
                 zoom: 17.00,
@@ -313,8 +317,8 @@ var config = {
             alignment: 'left',
             hidden: false,
             title: 'Manhattan Bundle 2',
-            // image: './path/to/image/source.png',
-            description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+            image: './path/to/image/source.png',
+            description: 'DESCRIPTION',
             location: {
                 center: [-73.93821, 40.83685],
                 zoom: 17.00,
@@ -334,8 +338,8 @@ var config = {
             alignment: 'left',
             hidden: false,
             title: 'Manhattan Bundle 3',
-            // image: './path/to/image/source.png',
-            description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+            image: './path/to/image/source.png',
+            description: 'DESCRIPTION',
             location: {
                 center: [-73.95377, 40.81857],
                 zoom: 17.00,
@@ -355,8 +359,8 @@ var config = {
             alignment: 'left',
             hidden: false,
             title: 'Manhattan Bundle 4',
-            // image: './path/to/image/source.png',
-            description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+            image: './path/to/image/source.png',
+            description: 'DESCRIPTION',
             location: {
                 center: [-73.93995, 40.81774],
                 zoom: 16.50,
